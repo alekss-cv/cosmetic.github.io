@@ -78,6 +78,9 @@ line-height: 16px;
   width:80px;
   height:80px;
 }
+hr{
+  border: 1px solid #EFEFEF;
+}
 @media (max-width:1142px){
   .block_nav_2{
     padding:0 10px;
