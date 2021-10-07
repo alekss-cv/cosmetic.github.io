@@ -45,6 +45,7 @@ body{
   align-items: center;
   justify-content:space-between;
   height: 120px;
+  max-width: 1110px;
 }
 .input_text{
   width: 250px;
