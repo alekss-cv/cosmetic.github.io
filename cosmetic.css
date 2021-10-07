@@ -78,3 +78,34 @@ line-height: 16px;
   width:80px;
   height:80px;
 }
+@media (max-width:1142px){
+  .block_nav_2{
+    padding:0 10px;
+  }
+}
+@media(max-width:840px){
+  .phone{
+  font-size: 11px;
+  line-height: 14px;
+}
+  .button_phone{
+    height: 30px;
+    width: 120px;
+  }
+  .button_phone_text{
+  font-size: 13px;
+  line-height: 11px;
+}
+  .beauty{
+    width: 138px;
+    height: 19px;
+  }
+  .logo{
+    max-width:60px;
+    max-height:60px;
+  }
+  .input_text{
+    width: 200px;
+    height: 30px;
+  }
+}
