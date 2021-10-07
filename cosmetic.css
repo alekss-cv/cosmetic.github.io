@@ -32,17 +32,20 @@ body{
 .nav_list_1{
   display: flex;
 }
+.nav_list_1 a{
+  color:black;
+  text-decoration:none;
+}
 .li_nav_1{
   padding: 0 15px;
   font-size: 14px;
   line-height: 16px;
 }
 .block_nav_2{
-  display: flex;
+  display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-between;
   height: 120px;
-
 }
 .input_text{
   width: 250px;
@@ -50,30 +53,29 @@ body{
   background: #EFEFEF;
   border-radius: 25px;
 }
-
 .Vector{
-position:relative;
-left: 45px;
-top:10px;
 }
 .phone{
 font-size: 16px;
 line-height: 19px;
+
 }
 .button_phone{
   height: 40px;
   width: 170px;
   border-radius: 25px;
   border: 3px solid #F13C6E;
-  margin-left: 286px;
 }
 .button_phone_text{
 font-size: 14px;
 line-height: 16px;
 }
 .beauty{
-  padding-left: 25px;
+  width: 158px;
+  height: 39px;
+
 }
 .logo{
-
+  width:80px;
+  height:80px;
 }
