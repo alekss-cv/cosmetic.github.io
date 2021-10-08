@@ -80,6 +80,8 @@ line-height: 16px;
 .beauty{
   width: 158px;
   height: 39px;
+}
+.bcg_button{
 
 }
 .logo{
@@ -111,6 +113,7 @@ padding: 20px;
   margin: 0 auto;
   max-width: 1110px;
   padding-top: 10%;
+
 }
 .big_h2{
 font-size: 48px;
@@ -134,6 +137,7 @@ padding-bottom: 4%
   border-radius: 25px;
   background: #F13C6E;
   color: white;
+  margin-bottom: 80px;
 }
 .button_bcg_text{
 font-size: 14px;
@@ -144,14 +148,79 @@ line-height: 16px;
   background: url("img/bcg.png") no-repeat;
   background-size: 100% auto;
   background-position: 0 0;
-  height: 604px;
+  max-height: 604px;
+}
+.specially{
+padding-top: 8%;
+padding-bottom: 3%;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+.main_content{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+main{
+  background: #EFEFEF;
+}
+.container_set{
+  width: 255px;
+  height: 363px;
+  background:white;
+  display: grid;
+  grid-column-gap: 10px;
+}
+.set_img{
+  padding-top: 100px;
+  background: url("img/set.png") no-repeat;
+  height: 166px;
+  width: 125px;
+  text-align: center;
+  display:block;
+  margin:auto;
+}
+.container_text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.price{
+  font-size: 21px;
+  font-weight:medium;
+  line-height: 25px;
+  text-align: center;
+
+}
+.button_set{
+  background: #F13C6E;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  margin-top:-10px;
+}
+.button_set_text{
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color:white;
+}
+.container_set_all{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
 }
 @media (max-width:1142px){
   .block_nav_2{
     padding:0 10px;
   }
 }
-@media(max-width:840px){
+@media(max-width:997px){
   .phone{
   font-size: 11px;
   line-height: 14px;
@@ -179,11 +248,19 @@ line-height: 16px;
   .block_nav_2{
     height: 80px;
   }
+  .bcg_button{
+    width: 120px;
+    height: 35px;
+    margin-bottom: 30px;
+  }
+  .button_bcg_text{
+  font-size: 14px;
+  line-height: 15px;
+  }
 
 }
-@media (max-width:1150px){
+@media (max-width:1300px){
   .bcg_content{
-
     padding: 6% 15px 0;
   }
   .big_h2{
@@ -208,4 +285,36 @@ line-height: 16px;
   font-size: 14px;
   line-height: 16px;
   }
+}
+@media(max-width:640px){
+  .bcg_button{
+    width: 70px;
+    height: 22px;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-bottom: 22px;
+  }
+  .button_bcg_text{
+  font-size: 8px;
+  line-height: 12px;
+  }
+  .bcg_content{
+    padding-top: 1%;
+  }
+  .big_h2{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: white;
+  padding-bottom: 3%
+  }
+  .p_text_bcg{
+  font-size: 9px;
+  line-height: 10px;
+  padding-bottom: 3%
+  }
+}
+@media(max-width:640px){
+
 }
