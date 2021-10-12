@@ -311,7 +311,8 @@ footer{
   max-width: 1110px;
 }
 .footer_nav_content{
-  display:flex;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   padding-bottom: 5%;
 }
 .footer_nav_display{
@@ -324,7 +325,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 23px;
 }
-hr{
+.border_long{
   margin-bottom: 5%;
   width: 255px;
   height: 0px;
@@ -436,6 +437,11 @@ line-height: 16px;
   .block_nav_2{
     padding:0 10px;
   }
+  .footer_nav_content{
+    display:flex;
+    padding: 0 10px;
+    padding-bottom: 5%;
+  }
   .container_set_all{
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -451,7 +457,7 @@ line-height: 16px;
     grid-template-columns: 1fr ;
     grid-column-gap: 30px;
     grid-column-gap:15%;
-    grid-row-gap: 1.5%;
+    grid-row-gap: 3%;
     max-width: 1000px;
     justify-content:space-around;
   }
@@ -468,6 +474,35 @@ line-height: 16px;
   .main_content{
     max-width: 500px;
     margin: 0 auto;
+  }
+  .footer_nav_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-row-gap: 1%;
+    grid-column-gap: 20%;
+    max-width: 500px;
+    justify-content:space-around;
+    padding-bottom: 5%;
+    margin: 0 auto;
+  }
+  .footer_nav_display{
+    padding-right:5%;
+  }
+  .footer_nav_title{
+  margin-top: 23%;
+  margin-bottom: 6%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  }
+  hr{
+    width: 100%;
+  }
+  .footer_two{
+    padding: 0 10px;
+  }
+  .footer_last_block{
+    padding: 25px 10px;
   }
 }
 @media(max-width:997px){
@@ -506,6 +541,20 @@ line-height: 16px;
   .button_bcg_text{
   font-size: 14px;
   line-height: 15px;
+  }
+  .footer_phone{
+    font-size: 11px;
+    line-height: 19px;
+    text-align: left;
+  }
+  address{
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .footer_bottom{
+    grid-column-gap:15px;
+    padding-top: 4%;
+
   }
 
 }
@@ -564,17 +613,20 @@ line-height: 16px;
   line-height: 10px;
   padding-bottom: 3%
   }
-  .container_set_all{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows:;
-    grid-column-gap: 30px;
-  }
+
   .container_set{
     width: 255px;
     height: 363px;
     background:white;
     display: grid;
     grid-column-gap: 10px;
+  }
+  .nav_item{
+  font-size: 13px;
+  line-height: 19px;
+  padding: 2%;
+  }
+  .last_text{
+    font-size: 9px;
   }
 }
